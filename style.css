@@ -27,6 +27,12 @@
     align-items: center;
 }
 
+.li-menu-top:hover {
+    font-size: 26px;
+    color: rgb(0, 18, 182);
+    cursor: pointer;
+}   
+
 /* =================== Section Middle ==================== */
 
 .section-middle {
