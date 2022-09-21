@@ -38,10 +38,17 @@
 .section-middle {
     height: 60vh;
     background-color: blueviolet;
+    padding-top: 100px;
+
 }
 
 .container-middle-upper {
     height: 30vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    
 }
 
 .container-img {
@@ -52,6 +59,8 @@
 .container-text {
     height: 100%;
     width: 20vw;
+    display: flex;
+    align-items: center;
 }
 
 p {
