@@ -78,7 +78,7 @@ img {
 
 .section-bottom {
     height: 20vh;
-    background-color: blue;
+    background-color: rgb(52, 29, 255);
 }
 
 footer {
@@ -99,8 +99,10 @@ footer {
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 .li-menu-bottom:hover {
